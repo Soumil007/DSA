@@ -80,22 +80,6 @@ void deleteNodeWithValue(Node **head,int value){
 void deleteNodeGivenPosition(Node **head,int position){
     Node *prev=NULL,*temp=*head;
     int i=0;
-    // if(temp!=NULL){
-    //     cout<<"deleting"<<endl;
-    //     while(i<position-1 && temp->next!=NULL){
-    //         prev = temp;
-    //         temp = temp->next;
-    //         i++;
-    //     }
-    //     if(temp!=NULL){
-    //         prev->next = temp->next;
-    //         delete temp;
-    //     }
-        
-    // }else{
-    //     cout<<"Linked List Empty"<<endl;
-    //     return;
-    // }
     if(temp == NULL){
         cout<<"Linked List Empty"<<endl;
         return;
